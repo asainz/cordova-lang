@@ -1,0 +1,29 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"Globalization\"><param name=\"wp-package\" value=\"Globalization\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cordova-plugin-globalization": {
+            "PACKAGE_NAME": "{e3587d10-5bdf-11e5-a95d-45ea79c9f4c7}"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "{e3587d10-5bdf-11e5-a95d-45ea79c9f4c7}"
+        }
+    },
+    "dependent_plugins": {}
+}
